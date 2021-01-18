@@ -5,7 +5,7 @@ KDD process to mine patterns for intusion detection
 1. [**What is**](#what-is)
 2. [**System Dependencies**](#requirements-and-dependencies)
 3. [**Quick Start**](#quick-start)
-4. [**How it Works**](#how-it-works)
+4. [**Dataset**](#Dataset)
 5. [**Evaluation and Results**](#evaluation-and-results)
 6. [**Credits**](#credits)
 
@@ -41,12 +41,23 @@ scikit-learn~=0.22.2.post1
 </li>
 
 <li>
+  
+## Dataset
+
+Subset of data collected by the Canadian Institute of Cybersecurity Android Adware and General Malware Dataset in 2017. <br>
+10,000 examples for treaining: 8000 normal examples and 2000 attacks. <br>
+80 attributes: 79 numeric and 1 binary (1 = Normal, 0 = Attack). <br>
+2000 examples for teasting: 1600 normal, 2000 attack.
+
+</li>
+
+<li>
 	
 ### Credits
 
 **Developed and Designed by:**
 
-[**mpia3**](https://github.com/mpia3) **and**
+[**mpia3**](https://github.com/mpia3)
 
 </li>
 

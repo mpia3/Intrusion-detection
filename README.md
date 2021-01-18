@@ -63,6 +63,7 @@ Best configuration evaluated taking into account the best average fscore value o
 Learning of a random forest on the entire original dataset with: n_estimators = 10, bootstrap = 0.9, randomization = sqrt. <br>
 Learning of a random forest on the dataset by applying the PCA with: n_estimators = 20, bootstrap = 0.9, randomization = log2. <br>
 Learning of a staker of the two previous points using the KNN with K = 3. <br>
+<br>
 ![](doc/results_testing_set.PNG)
 
 </li>

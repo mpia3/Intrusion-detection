@@ -1,0 +1,789 @@
+count    1.000000e+04
+mean     2.180037e+07
+std      1.300979e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      1.727050e+04
+75%      2.459261e+06
+max      6.324802e+09
+Name: duration, dtype: float64
+
+count    10000.000000
+mean         5.973500
+std         86.592851
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          3.000000
+max       5758.000000
+Name: total_fpackets, dtype: float64
+
+count    10000.000000
+mean         9.586100
+std        227.648793
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max      14245.000000
+Name: total_bpackets, dtype: float64
+
+count     10000.000000
+mean        777.359600
+std        6097.938242
+min           0.000000
+25%          80.000000
+50%         216.000000
+75%         422.000000
+max      303510.000000
+Name: total_fpktl, dtype: float64
+
+count    1.000000e+04
+mean     1.041577e+04
+std      3.101787e+05
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.640000e+02
+max      1.979530e+07
+Name: total_bpktl, dtype: float64
+
+count    10000.000000
+mean       146.487500
+std        159.430276
+min         -1.000000
+25%         52.000000
+50%         52.000000
+75%        356.000000
+max       1390.000000
+Name: min_fpktl, dtype: float64
+
+count    10000.000000
+mean        40.269600
+std         84.171338
+min         -1.000000
+25%         -1.000000
+50%         -1.000000
+75%         52.000000
+max       1390.000000
+Name: min_bpktl, dtype: float64
+
+count    10000.000000
+mean       259.840200
+std        277.649278
+min         -1.000000
+25%         52.000000
+50%         83.000000
+75%        420.000000
+max       1390.000000
+Name: max_fpktl, dtype: float64
+
+count    10000.000000
+mean       173.114900
+std        363.248899
+min         -1.000000
+25%         -1.000000
+50%         -1.000000
+75%        107.250000
+max       1390.000000
+Name: max_bpktl, dtype: float64
+
+count    10000.000000
+mean       176.758634
+std        161.278318
+min          0.000000
+25%         52.000000
+50%         83.000000
+75%        357.500000
+max       1390.000000
+Name: mean_fpktl, dtype: float64
+
+count    10000.000000
+mean        95.074678
+std        189.772026
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%         90.187500
+max       1390.000000
+Name: mean_bpktl, dtype: float64
+
+count    10000.000000
+mean        47.513838
+std        111.869775
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          8.426150
+max        738.102466
+Name: std_fpktl, dtype: float64
+
+count    10000.000000
+mean        57.689889
+std        149.313251
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max        761.066576
+Name: std_bpktl, dtype: float64
+
+count    1.000000e+04
+mean     1.500246e+07
+std      1.201301e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      4.438132e+05
+max      6.324802e+09
+Name: total_fiat, dtype: float64
+
+count    1.000000e+04
+mean     8.571758e+06
+std      5.257431e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      3.126736e+09
+Name: total_biat, dtype: float64
+
+count    1.000000e+04
+mean     1.003149e+07
+std      1.092398e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      1.122000e+03
+max      6.324802e+09
+Name: min_fiat, dtype: float64
+
+count    1.000000e+04
+mean     1.351206e+06
+std      2.992335e+07
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%     -1.000000e+00
+max      1.806932e+09
+Name: min_biat, dtype: float64
+
+count    1.000000e+04
+mean     1.376575e+07
+std      1.199556e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      2.462222e+05
+max      6.324802e+09
+Name: max_fiat, dtype: float64
+
+count    1.000000e+04
+mean     7.573253e+06
+std      5.199958e+07
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%     -1.000000e+00
+max      3.126736e+09
+Name: max_biat, dtype: float64
+
+count    1.000000e+04
+mean     1.116377e+07
+std      1.117566e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.053423e+05
+max      6.320000e+09
+Name: mean_fiat, dtype: float64
+
+count    1.000000e+04
+mean     2.715775e+06
+std      3.428118e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      1.810000e+09
+Name: mean_biat, dtype: float64
+
+count    1.000000e+04
+mean     1.874050e+06
+std      3.447420e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      7.547526e+03
+max      2.380000e+09
+Name: std_fiat, dtype: float64
+
+count    1.000000e+04
+mean     2.700208e+06
+std      2.512693e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.210000e+09
+Name: std_biat, dtype: float64
+
+count    10000.00000
+mean         1.02780
+std          5.26344
+min          0.00000
+25%          0.00000
+50%          0.00000
+75%          1.00000
+max        289.00000
+Name: fpsh_cnt, dtype: float64
+
+count    10000.000000
+mean         1.526400
+std         22.763201
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max       1767.000000
+Name: bpsh_cnt, dtype: float64
+
+count    10000.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: furg_cnt, dtype: float64
+
+count    10000.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: burg_cnt, dtype: float64
+
+count     10000.000000
+mean        119.489800
+std        1731.856637
+min           0.000000
+25%          20.000000
+50%          20.000000
+75%          60.000000
+max      115160.000000
+Name: total_fhlen, dtype: float64
+
+count     10000.000000
+mean        191.722000
+std        4552.975853
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%          20.000000
+max      284900.000000
+Name: total_bhlen, dtype: float64
+
+count    1.000000e+04
+mean     2.308396e+04
+std      1.390804e+05
+min      0.000000e+00
+25%      0.000000e+00
+50%      1.697882e-01
+75%      2.957683e+01
+max      2.000000e+06
+Name: fPktsPerSecond, dtype: float64
+
+count      10000.000000
+mean        1839.099757
+std        21322.937946
+min            0.000000
+25%            0.000000
+50%            0.000000
+75%           12.183173
+max      1000000.000000
+Name: bPktsPerSecond, dtype: float64
+
+count    1.000000e+04
+mean     2.492306e+04
+std      1.404391e+05
+min      0.000000e+00
+25%      0.000000e+00
+50%      2.603806e-01
+75%      5.973225e+01
+max      2.000000e+06
+Name: flowPktsPerSecond, dtype: float64
+
+count    1.000000e+04
+mean     1.351326e+06
+std      7.375194e+06
+min      0.000000e+00
+25%      0.000000e+00
+50%      2.963433e+01
+75%      5.819013e+03
+max      8.000000e+07
+Name: flowBytesPerSecond, dtype: float64
+
+count    10000.000000
+mean       147.262600
+std        157.508281
+min         40.000000
+25%         52.000000
+50%         52.000000
+75%        356.000000
+max        663.000000
+Name: min_flowpktl, dtype: float64
+
+count    10000.000000
+mean       329.989500
+std        371.640082
+min         40.000000
+25%         52.000000
+50%        156.000000
+75%        422.000000
+max       1390.000000
+Name: max_flowpktl, dtype: float64
+
+count    10000.000000
+mean       200.749432
+std        169.574801
+min         40.000000
+25%         52.000000
+50%        108.000000
+75%        365.000000
+max       1136.226079
+Name: mean_flowpktl, dtype: float64
+
+count    10000.000000
+mean        75.164624
+std        148.731149
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%         41.335215
+max        734.517222
+Name: std_flowpktl, dtype: float64
+
+count    1.000000e+04
+mean     1.001459e+07
+std      1.092325e+08
+min     -4.500000e+01
+25%     -1.000000e+00
+50%      3.000000e+00
+75%      1.563800e+04
+max      6.324802e+09
+Name: min_flowiat, dtype: float64
+
+count    1.000000e+04
+mean     2.047816e+07
+std      1.299405e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%      1.573100e+04
+75%      2.255680e+06
+max      6.324802e+09
+Name: max_flowiat, dtype: float64
+
+count    1.000000e+04
+mean     1.200323e+07
+std      1.129200e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      7.548333e+03
+75%      6.091222e+05
+max      6.320000e+09
+Name: mean_flowiat, dtype: float64
+
+count    1.000000e+04
+mean     4.029138e+06
+std      4.403805e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.803747e+04
+max      2.380000e+09
+Name: std_flowiat, dtype: float64
+
+count    10000.000000
+mean         0.519800
+std          0.676353
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          2.000000
+Name: flow_fin, dtype: float64
+
+count    10000.000000
+mean         0.425600
+std          0.945174
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          6.000000
+Name: flow_syn, dtype: float64
+
+count    10000.000000
+mean         0.056200
+std          0.280801
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          2.000000
+Name: flow_rst, dtype: float64
+
+count    10000.000000
+mean         2.554200
+std         26.198796
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max       1776.000000
+Name: flow_psh, dtype: float64
+
+count    10000.000000
+mean        14.772200
+std        313.117929
+min          0.000000
+25%          0.000000
+50%          2.000000
+75%          3.000000
+max      20002.000000
+Name: flow_ack, dtype: float64
+
+count    10000.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: flow_urg, dtype: float64
+
+count    10000.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: flow_cwr, dtype: float64
+
+count    10000.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: flow_ece, dtype: float64
+
+count    10000.000000
+mean         1.073840
+std          3.786751
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max        104.250000
+Name: downUpRatio, dtype: float64
+
+count    10000.000000
+mean       200.749432
+std        169.574801
+min         40.000000
+25%         52.000000
+50%        108.000000
+75%        365.000000
+max       1136.226079
+Name: avgPacketSize, dtype: float64
+
+count    10000.000000
+mean       176.758634
+std        161.278318
+min          0.000000
+25%         52.000000
+50%         83.000000
+75%        357.500000
+max       1390.000000
+Name: fAvgSegmentSize, dtype: float64
+
+count     10000.000000
+mean        119.489800
+std        1731.856637
+min           0.000000
+25%          20.000000
+50%          20.000000
+75%          60.000000
+max      115160.000000
+Name: fHeaderBytes, dtype: float64
+
+count    10000.000000
+mean        48.227800
+std        403.362848
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      13272.000000
+Name: fAvgBytesPerBulk, dtype: float64
+
+count    10000.000000
+mean         0.308500
+std          1.454283
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         39.000000
+Name: fAvgPacketsPerBulk, dtype: float64
+
+count    1.000000e+04
+mean     2.049048e+05
+std      5.110485e+06
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      4.192857e+08
+Name: fAvgBulkRate, dtype: float64
+
+count     10000.000000
+mean      25620.334350
+std       82509.817732
+min          -1.000000
+25%           0.000000
+50%           0.000000
+75%           0.000000
+max      579222.333300
+Name: bVarianceDataBytes, dtype: float64
+
+count    10000.000000
+mean        94.971800
+std        189.667182
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%         90.000000
+max       1390.000000
+Name: bAvgSegmentSize, dtype: float64
+
+count    10000.000000
+mean       387.594100
+std       2096.043797
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      97727.000000
+Name: bAvgBytesPerBulk, dtype: float64
+
+count    10000.000000
+mean         0.469700
+std          1.883836
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max         71.000000
+Name: bAvgPacketsPerBulk, dtype: float64
+
+count    1.000000e+04
+mean     1.449205e+05
+std      2.501501e+06
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.222632e+08
+Name: bAvgBulkRate, dtype: float64
+
+count    10000.000000
+mean         1.788100
+std         26.587792
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max       2089.000000
+Name: sflow_fpacket, dtype: float64
+
+count     10000.000000
+mean        261.579400
+std        3063.659565
+min           0.000000
+25%           0.000000
+50%           0.000000
+75%          80.000000
+max      236720.000000
+Name: sflow_fbytes, dtype: float64
+
+count    10000.000000
+mean         2.637900
+std         71.214233
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max       5091.000000
+Name: sflow_bpacket, dtype: float64
+
+count    1.000000e+04
+mean     2.705696e+03
+std      9.366771e+04
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      6.420519e+06
+Name: sflow_bbytes, dtype: float64
+
+count    1.000000e+04
+mean     1.963554e+07
+std      1.296079e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      1.920155e+06
+max      6.324802e+09
+Name: min_active, dtype: float64
+
+count    1.000000e+04
+mean     1.999372e+07
+std      1.296343e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      2.339374e+06
+max      6.320000e+09
+Name: mean_active, dtype: float64
+
+count    1.000000e+04
+mean     2.049281e+07
+std      1.299652e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      2.339374e+06
+max      6.324802e+09
+Name: max_active, dtype: float64
+
+count    1.000000e+04
+mean     5.072090e+05
+std      6.930827e+06
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.060000e+08
+Name: std_active, dtype: float64
+
+count    1.000000e+04
+mean     1.957294e+07
+std      1.295929e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      1.839312e+06
+max      6.324802e+09
+Name: min_idle, dtype: float64
+
+count    1.000000e+04
+mean     1.994370e+07
+std      1.296205e+08
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      2.247070e+06
+max      6.320000e+09
+Name: mean_idle, dtype: float64
+
+count    1.000000e+04
+mean     2.044462e+07
+std      1.299458e+08
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      2.255680e+06
+max      6.324802e+09
+Name: max_idle, dtype: float64
+
+count    1.000000e+04
+mean     5.125999e+05
+std      6.937194e+06
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.060000e+08
+Name: std_idle, dtype: float64
+
+count    10000.000000
+mean         2.390700
+std          1.140607
+min          2.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max         40.000000
+Name: FFNEPD, dtype: float64
+
+count    1.000000e+04
+mean     8.997217e+05
+std      1.662681e+06
+min     -1.000000e+00
+25%      0.000000e+00
+50%      8.761600e+04
+75%      1.916160e+05
+max      4.194240e+06
+Name: Init_Win_bytes_forward, dtype: float64
+
+count    1.000000e+04
+mean     2.957619e+05
+std      6.747387e+05
+min     -1.000000e+00
+25%     -1.000000e+00
+50%     -1.000000e+00
+75%      8.870400e+04
+max      4.194240e+06
+Name: Init_Win_bytes_backward, dtype: float64
+
+count    10000.000000
+mean         8.798800
+std        227.064174
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max      14244.000000
+Name: RRT_samples_clnt, dtype: float64
+
+count    10000.000000
+mean         5.972600
+std         86.592899
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          3.000000
+max       5758.000000
+Name: Act_data_pkt_forward, dtype: float64
+
+count    10000.000000
+mean        18.600400
+std         14.797967
+min          0.000000
+25%          0.000000
+50%         20.000000
+75%         32.000000
+max         44.000000
+Name: min_seg_size_forward, dtype: float64

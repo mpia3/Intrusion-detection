@@ -1,1 +1,658 @@
+24-12-2020
+(10000, 80)
+    duration  total_fpackets  ...  min_seg_size_forward  classification
+0          0               1  ...                     0               1
+1  213513404              32  ...                    32               1
+2    8872756               2  ...                    20               0
+3     846498               6  ...                    32               1
+4        496               1  ...                     0               0
+
+[5 rows x 80 columns]
+Index(['duration', 'total_fpackets', 'total_bpackets', 'total_fpktl',
+       'total_bpktl', 'min_fpktl', 'min_bpktl', 'max_fpktl', 'max_bpktl',
+       'mean_fpktl', 'mean_bpktl', 'std_fpktl', 'std_bpktl', 'total_fiat',
+       'total_biat', 'min_fiat', 'min_biat', 'max_fiat', 'max_biat',
+       'mean_fiat', 'mean_biat', 'std_fiat', 'std_biat', 'fpsh_cnt',
+       'bpsh_cnt', 'furg_cnt', 'burg_cnt', 'total_fhlen', 'total_bhlen',
+       'fPktsPerSecond', 'bPktsPerSecond', 'flowPktsPerSecond',
+       'flowBytesPerSecond', 'min_flowpktl', 'max_flowpktl', 'mean_flowpktl',
+       'std_flowpktl', 'min_flowiat', 'max_flowiat', 'mean_flowiat',
+       'std_flowiat', 'flow_fin', 'flow_syn', 'flow_rst', 'flow_psh',
+       'flow_ack', 'flow_urg', 'flow_cwr', 'flow_ece', 'downUpRatio',
+       'avgPacketSize', 'fAvgSegmentSize', 'fHeaderBytes', 'fAvgBytesPerBulk',
+       'fAvgPacketsPerBulk', 'fAvgBulkRate', 'bVarianceDataBytes',
+       'bAvgSegmentSize', 'bAvgBytesPerBulk', 'bAvgPacketsPerBulk',
+       'bAvgBulkRate', 'sflow_fpacket', 'sflow_fbytes', 'sflow_bpacket',
+       'sflow_bbytes', 'min_active', 'mean_active', 'max_active', 'std_active',
+       'min_idle', 'mean_idle', 'max_idle', 'std_idle', 'FFNEPD',
+       'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'RRT_samples_clnt',
+       'Act_data_pkt_forward', 'min_seg_size_forward', 'classification'],
+      dtype='object')
+
+Best configuration phase...
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9228420531666485)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+Best configuration for now: sqrt 0.5 20 (fscore=0.9254274556135977)
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9254974617015964)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+Best configuration for now: sqrt 0.6 20 (fscore=0.9259513355158848)
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+Best configuration for now: sqrt 0.6 30 (fscore=0.9270967711768613)
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9279303185471063)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+Best configuration for now: sqrt 0.7 30 (fscore=0.9285134461919787)
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+Best configuration for now: sqrt 0.9 20 (fscore=0.9287280871388329)
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for original dataset: randomization=sqrt bootstrap=0.9 n_estimators=20
+
+Percentage of variance explained: 0.999791203985986
+Percentage of variance explained: 0.99989093616596
+Percentage of variance explained: 0.9997757293610209
+Percentage of variance explained: 0.9995534293242175
+Percentage of variance explained: 0.9998282682589995
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9088950211689493)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9098426524341845)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.9098854594448941)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9099064600693687)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+Best configuration for now: sqrt 0.8 10 (fscore=0.9102543423416014)
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+Best configuration for now: sqrt 0.9 10 (fscore=0.9114118384519886)
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for PCA dataset: randomization=sqrt bootstrap=0.9 n_estimators=10
+
+Train phase...
+Percentage of variance explained: 0.9997779018830153
+Stacker train phase...
+
+Valutation phase...
+Score su dataset test vergine
+overall_accuracy_score=0.8785 balanced_accuracy_score=0.7206250000000001 precision_score=0.8788386376326075 recall_score=0.98375 f1_score=0.9283397227956355
+
+Score su dataset test con PCA
+overall_accuracy_score=0.8505 balanced_accuracy_score=0.67875 precision_score=0.8640179071068831 recall_score=0.965 f1_score=0.9117212872748746
+
+Score su dataset test per lo stacker (Knn, with K = 3)
+overall_accuracy_score=0.8705 balanced_accuracy_score=0.6828125 precision_score=0.8634146341463415 recall_score=0.995625 f1_score=0.9248185776487664
+
+4-01-2021
+
+(10000, 80)
+    duration  total_fpackets  ...  min_seg_size_forward  classification
+0          0               1  ...                     0               1
+1  213513404              32  ...                    32               1
+2    8872756               2  ...                    20               0
+3     846498               6  ...                    32               1
+4        496               1  ...                     0               0
+
+[5 rows x 80 columns]
+Index(['duration', 'total_fpackets', 'total_bpackets', 'total_fpktl',
+       'total_bpktl', 'min_fpktl', 'min_bpktl', 'max_fpktl', 'max_bpktl',
+       'mean_fpktl', 'mean_bpktl', 'std_fpktl', 'std_bpktl', 'total_fiat',
+       'total_biat', 'min_fiat', 'min_biat', 'max_fiat', 'max_biat',
+       'mean_fiat', 'mean_biat', 'std_fiat', 'std_biat', 'fpsh_cnt',
+       'bpsh_cnt', 'furg_cnt', 'burg_cnt', 'total_fhlen', 'total_bhlen',
+       'fPktsPerSecond', 'bPktsPerSecond', 'flowPktsPerSecond',
+       'flowBytesPerSecond', 'min_flowpktl', 'max_flowpktl', 'mean_flowpktl',
+       'std_flowpktl', 'min_flowiat', 'max_flowiat', 'mean_flowiat',
+       'std_flowiat', 'flow_fin', 'flow_syn', 'flow_rst', 'flow_psh',
+       'flow_ack', 'flow_urg', 'flow_cwr', 'flow_ece', 'downUpRatio',
+       'avgPacketSize', 'fAvgSegmentSize', 'fHeaderBytes', 'fAvgBytesPerBulk',
+       'fAvgPacketsPerBulk', 'fAvgBulkRate', 'bVarianceDataBytes',
+       'bAvgSegmentSize', 'bAvgBytesPerBulk', 'bAvgPacketsPerBulk',
+       'bAvgBulkRate', 'sflow_fpacket', 'sflow_fbytes', 'sflow_bpacket',
+       'sflow_bbytes', 'min_active', 'mean_active', 'max_active', 'std_active',
+       'min_idle', 'mean_idle', 'max_idle', 'std_idle', 'FFNEPD',
+       'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'RRT_samples_clnt',
+       'Act_data_pkt_forward', 'min_seg_size_forward', 'classification'],
+      dtype='object')
+
+Best configuration phase...
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9250418066397831)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+Best configuration for now: sqrt 0.5 30 (fscore=0.9261105137419083)
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+Best configuration for now: sqrt 0.6 30 (fscore=0.9280293073764214)
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9281491531339989)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+Best configuration for now: sqrt 0.8 10 (fscore=0.9284438501367512)
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+Best configuration for now: sqrt 0.8 20 (fscore=0.9285427651428086)
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+Best configuration for now: sqrt 0.9 20 (fscore=0.9287385798795897)
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+Best configuration for now: sqrt 0.9 30 (fscore=0.9290867071940111)
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+Best configuration for now: log2 0.9 10 (fscore=0.9292998441030289)
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for original dataset: randomization=log2 bootstrap=0.9 n_estimators=10
+
+Percentage of variance explained: 0.9997628876118386
+Percentage of variance explained: 0.9997549917666384
+Percentage of variance explained: 0.9998227659997811
+Percentage of variance explained: 0.99986076874514
+Percentage of variance explained: 0.9997261969845467
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9078270519198031)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+Best configuration for now: sqrt 0.5 30 (fscore=0.9078558894757489)
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9081666714969556)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+Best configuration for now: sqrt 0.6 20 (fscore=0.9082666147657704)
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+Best configuration for now: sqrt 0.6 30 (fscore=0.908593859156625)
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.9098816533062516)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.910627338852932)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+Best configuration for now: sqrt 0.9 10 (fscore=0.9130643254764752)
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for PCA dataset: randomization=sqrt bootstrap=0.9 n_estimators=10
+
+Train phase...
+Percentage of variance explained: 0.9997779018830095
+Stacker train phase...
+
+Valutation phase...
+Score su dataset test vergine
+overall_accuracy_score=0.8735 balanced_accuracy_score=0.6959375 precision_score=0.8686371100164204 recall_score=0.991875 f1_score=0.9261744966442953
+
+Score su dataset test con PCA
+overall_accuracy_score=0.8525 balanced_accuracy_score=0.700625 precision_score=0.8734974241556954 recall_score=0.95375 f1_score=0.9118613683896026
+
+Score su dataset test per lo stacker
+overall_accuracy_score=0.8735 balanced_accuracy_score=0.6959375 precision_score=0.8686371100164204 recall_score=0.991875 f1_score=0.9261744966442953
+
+8-01-2021
+
+(10000, 80)
+    duration  total_fpackets  total_bpackets  ...  Act_data_pkt_forward  min_seg_size_forward  classification
+0          0               1               0  ...                     1                     0               1
+1  213513404              32              47  ...                    32                    32               1
+2    8872756               2               0  ...                     2                    20               0
+3     846498               6               5  ...                     6                    32               1
+4        496               1               1  ...                     1                     0               0
+
+[5 rows x 80 columns]
+Index(['duration', 'total_fpackets', 'total_bpackets', 'total_fpktl',
+       'total_bpktl', 'min_fpktl', 'min_bpktl', 'max_fpktl', 'max_bpktl',
+       'mean_fpktl', 'mean_bpktl', 'std_fpktl', 'std_bpktl', 'total_fiat',
+       'total_biat', 'min_fiat', 'min_biat', 'max_fiat', 'max_biat',
+       'mean_fiat', 'mean_biat', 'std_fiat', 'std_biat', 'fpsh_cnt',
+       'bpsh_cnt', 'furg_cnt', 'burg_cnt', 'total_fhlen', 'total_bhlen',
+       'fPktsPerSecond', 'bPktsPerSecond', 'flowPktsPerSecond',
+       'flowBytesPerSecond', 'min_flowpktl', 'max_flowpktl', 'mean_flowpktl',
+       'std_flowpktl', 'min_flowiat', 'max_flowiat', 'mean_flowiat',
+       'std_flowiat', 'flow_fin', 'flow_syn', 'flow_rst', 'flow_psh',
+       'flow_ack', 'flow_urg', 'flow_cwr', 'flow_ece', 'downUpRatio',
+       'avgPacketSize', 'fAvgSegmentSize', 'fHeaderBytes', 'fAvgBytesPerBulk',
+       'fAvgPacketsPerBulk', 'fAvgBulkRate', 'bVarianceDataBytes',
+       'bAvgSegmentSize', 'bAvgBytesPerBulk', 'bAvgPacketsPerBulk',
+       'bAvgBulkRate', 'sflow_fpacket', 'sflow_fbytes', 'sflow_bpacket',
+       'sflow_bbytes', 'min_active', 'mean_active', 'max_active', 'std_active',
+       'min_idle', 'mean_idle', 'max_idle', 'std_idle', 'FFNEPD',
+       'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'RRT_samples_clnt',
+       'Act_data_pkt_forward', 'min_seg_size_forward', 'classification'],
+      dtype='object')
+
+Best configuration phase...
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.923923886714119)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+Best configuration for now: sqrt 0.5 20 (fscore=0.9248883924121886)
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+Best configuration for now: sqrt 0.5 30 (fscore=0.9263909797120364)
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.926417223704228)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+Best configuration for now: sqrt 0.6 20 (fscore=0.9264753652600659)
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+Best configuration for now: sqrt 0.6 30 (fscore=0.9267123714561392)
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.9279682418050632)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+Best configuration for now: sqrt 0.8 10 (fscore=0.9287995708955264)
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+Best configuration for now: sqrt 0.9 20 (fscore=0.9294067544771855)
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for original dataset: randomization=sqrt bootstrap=0.9 n_estimators=20
+
+Percentage of variance explained: 0.9997809093678218
+Percentage of variance explained: 0.9997879200206254
+Percentage of variance explained: 0.9997783646808431
+Percentage of variance explained: 0.9998083892224215
+Percentage of variance explained: 0.999833155391519
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9074513409853271)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+Best configuration for now: sqrt 0.5 20 (fscore=0.908467520743943)
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+Best configuration for now: sqrt 0.5 30 (fscore=0.9086339805946423)
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9088870992520288)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.9096884248404974)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9097080819797062)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+Best configuration for now: sqrt 0.7 30 (fscore=0.909955685775665)
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+Best configuration for now: sqrt 0.8 10 (fscore=0.9109011614834351)
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+Best configuration for now: sqrt 0.9 30 (fscore=0.9113810260737953)
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for PCA dataset: randomization=sqrt bootstrap=0.9 n_estimators=30
+
+Train phase...
+Percentage of variance explained: 0.9997779018830091
+Stacker train phase...
+
+Valutation phase...
+Score su dataset test vergine
+overall_accuracy_score=0.8775 balanced_accuracy_score=0.7171875 precision_score=0.8774373259052924 recall_score=0.984375 f1_score=0.9278350515463917
+
+Score su dataset test con PCA
+overall_accuracy_score=0.8505 balanced_accuracy_score=0.67875 precision_score=0.8640179071068831 recall_score=0.965 f1_score=0.9117212872748746
+
+Score su dataset test per lo stacker
+overall_accuracy_score=0.8775 balanced_accuracy_score=0.7171875 precision_score=0.8774373259052924 recall_score=0.984375 f1_score=0.9278350515463917
+
+13-01-2021
+
+(10000, 80)
+    duration  total_fpackets  ...  min_seg_size_forward  classification
+0          0               1  ...                     0               1
+1  213513404              32  ...                    32               1
+2    8872756               2  ...                    20               0
+3     846498               6  ...                    32               1
+4        496               1  ...                     0               0
+
+[5 rows x 80 columns]
+Index(['duration', 'total_fpackets', 'total_bpackets', 'total_fpktl',
+       'total_bpktl', 'min_fpktl', 'min_bpktl', 'max_fpktl', 'max_bpktl',
+       'mean_fpktl', 'mean_bpktl', 'std_fpktl', 'std_bpktl', 'total_fiat',
+       'total_biat', 'min_fiat', 'min_biat', 'max_fiat', 'max_biat',
+       'mean_fiat', 'mean_biat', 'std_fiat', 'std_biat', 'fpsh_cnt',
+       'bpsh_cnt', 'furg_cnt', 'burg_cnt', 'total_fhlen', 'total_bhlen',
+       'fPktsPerSecond', 'bPktsPerSecond', 'flowPktsPerSecond',
+       'flowBytesPerSecond', 'min_flowpktl', 'max_flowpktl', 'mean_flowpktl',
+       'std_flowpktl', 'min_flowiat', 'max_flowiat', 'mean_flowiat',
+       'std_flowiat', 'flow_fin', 'flow_syn', 'flow_rst', 'flow_psh',
+       'flow_ack', 'flow_urg', 'flow_cwr', 'flow_ece', 'downUpRatio',
+       'avgPacketSize', 'fAvgSegmentSize', 'fHeaderBytes', 'fAvgBytesPerBulk',
+       'fAvgPacketsPerBulk', 'fAvgBulkRate', 'bVarianceDataBytes',
+       'bAvgSegmentSize', 'bAvgBytesPerBulk', 'bAvgPacketsPerBulk',
+       'bAvgBulkRate', 'sflow_fpacket', 'sflow_fbytes', 'sflow_bpacket',
+       'sflow_bbytes', 'min_active', 'mean_active', 'max_active', 'std_active',
+       'min_idle', 'mean_idle', 'max_idle', 'std_idle', 'FFNEPD',
+       'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'RRT_samples_clnt',
+       'Act_data_pkt_forward', 'min_seg_size_forward', 'classification'],
+      dtype='object')
+
+Best configuration phase...
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9244097480854168)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+Best configuration for now: sqrt 0.5 20 (fscore=0.9262149481406283)
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9273727955594424)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.927816879274215)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9284454520694825)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+Best configuration for now: sqrt 0.9 10 (fscore=0.929271144443713)
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for original dataset: randomization=sqrt bootstrap=0.9 n_estimators=10
+
+Percentage of variance explained: 0.9997280755815361
+Percentage of variance explained: 0.9997872488823512
+Percentage of variance explained: 0.9998561604059547
+Percentage of variance explained: 0.9998075558305872
+Percentage of variance explained: 0.9997990729150715
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9061163640327955)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+Best configuration for now: sqrt 0.5 20 (fscore=0.9084706846518692)
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.9087399639700898)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+Best configuration for now: sqrt 0.6 20 (fscore=0.9090631003703562)
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+Best configuration for now: sqrt 0.7 10 (fscore=0.9091166640431844)
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9092750391531654)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+Best configuration for now: sqrt 0.7 30 (fscore=0.909896659892491)
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+Best configuration for now: sqrt 0.8 10 (fscore=0.9109886705475008)
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+Best configuration for now: log2 0.8 10 (fscore=0.9119824305972359)
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+Best configuration for now: log2 0.9 20 (fscore=0.9123217840332074)
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for PCA dataset: randomization=log2 bootstrap=0.9 n_estimators=20
+
+Train phase...
+Percentage of variance explained: 0.9997779018830162
+Stacker train phase...
+
+Valutation phase...
+Score su dataset test vergine
+overall_accuracy_score=0.879 balanced_accuracy_score=0.721875 precision_score=0.8793296089385475 recall_score=0.98375 f1_score=0.9286135693215339
+
+Score su dataset test con PCA
+overall_accuracy_score=0.8565 balanced_accuracy_score=0.6984375 precision_score=0.8719546742209632 recall_score=0.961875 f1_score=0.9147102526002973
+
+Score su dataset test per lo stacker
+overall_accuracy_score=0.879 balanced_accuracy_score=0.721875 precision_score=0.8793296089385475 recall_score=0.98375 f1_score=0.9286135693215339
+
+14-01-2021
+
+(10000, 80)
+    duration  total_fpackets  ...  min_seg_size_forward  classification
+0          0               1  ...                     0               1
+1  213513404              32  ...                    32               1
+2    8872756               2  ...                    20               0
+3     846498               6  ...                    32               1
+4        496               1  ...                     0               0
+
+[5 rows x 80 columns]
+Index(['duration', 'total_fpackets', 'total_bpackets', 'total_fpktl',
+       'total_bpktl', 'min_fpktl', 'min_bpktl', 'max_fpktl', 'max_bpktl',
+       'mean_fpktl', 'mean_bpktl', 'std_fpktl', 'std_bpktl', 'total_fiat',
+       'total_biat', 'min_fiat', 'min_biat', 'max_fiat', 'max_biat',
+       'mean_fiat', 'mean_biat', 'std_fiat', 'std_biat', 'fpsh_cnt',
+       'bpsh_cnt', 'furg_cnt', 'burg_cnt', 'total_fhlen', 'total_bhlen',
+       'fPktsPerSecond', 'bPktsPerSecond', 'flowPktsPerSecond',
+       'flowBytesPerSecond', 'min_flowpktl', 'max_flowpktl', 'mean_flowpktl',
+       'std_flowpktl', 'min_flowiat', 'max_flowiat', 'mean_flowiat',
+       'std_flowiat', 'flow_fin', 'flow_syn', 'flow_rst', 'flow_psh',
+       'flow_ack', 'flow_urg', 'flow_cwr', 'flow_ece', 'downUpRatio',
+       'avgPacketSize', 'fAvgSegmentSize', 'fHeaderBytes', 'fAvgBytesPerBulk',
+       'fAvgPacketsPerBulk', 'fAvgBulkRate', 'bVarianceDataBytes',
+       'bAvgSegmentSize', 'bAvgBytesPerBulk', 'bAvgPacketsPerBulk',
+       'bAvgBulkRate', 'sflow_fpacket', 'sflow_fbytes', 'sflow_bpacket',
+       'sflow_bbytes', 'min_active', 'mean_active', 'max_active', 'std_active',
+       'min_idle', 'mean_idle', 'max_idle', 'std_idle', 'FFNEPD',
+       'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'RRT_samples_clnt',
+       'Act_data_pkt_forward', 'min_seg_size_forward', 'classification'],
+      dtype='object')
+
+Best configuration phase...
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9251639577100628)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+Best configuration for now: sqrt 0.5 30 (fscore=0.9265693904274471)
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+Best configuration for now: sqrt 0.6 30 (fscore=0.9269438722962061)
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9276884497229536)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+Best configuration for now: sqrt 0.7 30 (fscore=0.9281052481139437)
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+Best configuration for now: sqrt 0.8 30 (fscore=0.9289386660466811)
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+Best configuration for now: sqrt 0.9 20 (fscore=0.9290774588187711)
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for original dataset: randomization=sqrt bootstrap=0.9 n_estimators=20
+
+Percentage of variance explained: 0.9997360466374685
+Percentage of variance explained: 0.9998689795195846
+Percentage of variance explained: 0.999816342522382
+Percentage of variance explained: 0.9997223098218759
+Percentage of variance explained: 0.999792353457436
+configuration n1: randomization=sqrt bootstrap=0.5 n_estimator=10
+Best configuration for now: sqrt 0.5 10 (fscore=0.9090261016350853)
+configuration n2: randomization=sqrt bootstrap=0.5 n_estimator=20
+configuration n3: randomization=sqrt bootstrap=0.5 n_estimator=30
+configuration n4: randomization=sqrt bootstrap=0.6 n_estimator=10
+Best configuration for now: sqrt 0.6 10 (fscore=0.909422576948435)
+configuration n5: randomization=sqrt bootstrap=0.6 n_estimator=20
+Best configuration for now: sqrt 0.6 20 (fscore=0.9099658438215961)
+configuration n6: randomization=sqrt bootstrap=0.6 n_estimator=30
+configuration n7: randomization=sqrt bootstrap=0.7 n_estimator=10
+configuration n8: randomization=sqrt bootstrap=0.7 n_estimator=20
+Best configuration for now: sqrt 0.7 20 (fscore=0.9106694888971341)
+configuration n9: randomization=sqrt bootstrap=0.7 n_estimator=30
+configuration n10: randomization=sqrt bootstrap=0.8 n_estimator=10
+configuration n11: randomization=sqrt bootstrap=0.8 n_estimator=20
+configuration n12: randomization=sqrt bootstrap=0.8 n_estimator=30
+Best configuration for now: sqrt 0.8 30 (fscore=0.9111908284176413)
+configuration n13: randomization=sqrt bootstrap=0.9 n_estimator=10
+Best configuration for now: sqrt 0.9 10 (fscore=0.9117166021843568)
+configuration n14: randomization=sqrt bootstrap=0.9 n_estimator=20
+configuration n15: randomization=sqrt bootstrap=0.9 n_estimator=30
+configuration n16: randomization=log2 bootstrap=0.5 n_estimator=10
+configuration n17: randomization=log2 bootstrap=0.5 n_estimator=20
+configuration n18: randomization=log2 bootstrap=0.5 n_estimator=30
+configuration n19: randomization=log2 bootstrap=0.6 n_estimator=10
+configuration n20: randomization=log2 bootstrap=0.6 n_estimator=20
+configuration n21: randomization=log2 bootstrap=0.6 n_estimator=30
+configuration n22: randomization=log2 bootstrap=0.7 n_estimator=10
+configuration n23: randomization=log2 bootstrap=0.7 n_estimator=20
+configuration n24: randomization=log2 bootstrap=0.7 n_estimator=30
+configuration n25: randomization=log2 bootstrap=0.8 n_estimator=10
+Best configuration for now: log2 0.8 10 (fscore=0.9124158963536096)
+configuration n26: randomization=log2 bootstrap=0.8 n_estimator=20
+configuration n27: randomization=log2 bootstrap=0.8 n_estimator=30
+configuration n28: randomization=log2 bootstrap=0.9 n_estimator=10
+configuration n29: randomization=log2 bootstrap=0.9 n_estimator=20
+configuration n30: randomization=log2 bootstrap=0.9 n_estimator=30
+Best configuration for PCA dataset: randomization=log2 bootstrap=0.8 n_estimators=10
+
+Train phase...
+Percentage of variance explained: 0.9997779018830264
+Stacker train phase...
+
+Valutation phase...
+Score su dataset test vergine
+overall_accuracy_score=0.8755 balanced_accuracy_score=0.7140625 precision_score=0.8763231197771588 recall_score=0.983125 f1_score=0.9266568483063329
+
+Score su dataset test con PCA
+overall_accuracy_score=0.8565 balanced_accuracy_score=0.7003125 precision_score=0.8727995457126633 recall_score=0.960625 f1_score=0.9146087473966081
+
+Score su dataset test per lo stacker
+overall_accuracy_score=0.8755 balanced_accuracy_score=0.7140625 precision_score=0.8763231197771588 recall_score=0.983125 f1_score=0.9266568483063329
 

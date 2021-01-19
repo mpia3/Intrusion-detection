@@ -1,5 +1,5 @@
 # Intrusion-detection
-KDD process to mine patterns for intusion detection
+KDD process to mine patterns for intrusion detection
 ### Index
 
 1. [**What is**](#what-is)

@@ -35,7 +35,7 @@ scikit-learn~=0.22.2
 
 1 - Clone this repository <br> 
 2 - Install all dependencies <br> 
-4 - Execute "kdd_process.py.py" <br>
+4 - Execute "kdd_process.py" <br>
 5 - Enjoy
 
 </li>

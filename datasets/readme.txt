@@ -1,2 +1,2 @@
-Train_OneClassNumeric.csv for trainig
+Train_OneClassNumeric.csv for training
 Test_OneClassNumeric.csv for testing

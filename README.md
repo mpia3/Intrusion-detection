@@ -23,7 +23,7 @@ its goal is to able to classify android application network traffic into genuine
 ```
 Python 3 or higher (tested on 3.7)
 pandas~=1.1.3
-scikit-learn~=0.22.2.post1
+scikit-learn~=0.22.2
 
  ```  
 
